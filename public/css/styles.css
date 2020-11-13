@@ -3,6 +3,12 @@ body{
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
 }
+body.dark-mode{
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: 'Space Grotesk', sans-serif;
+}
 h1{
   margin-top: 40px;
   font-family: 'Big Shoulders Inline Display', cursive;
@@ -19,8 +25,37 @@ form{
   right: 0;
   margin: 50px;
 }
+body.dark-mode .dark
+{
+  background-color: black;
+  color: white;
+  border: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 50px;
+}
+body.dark-mode .dark::after{
+  border: none;
+}
 .md-form label{
   color: black;
+}
+body.dark-mode .form-control{
+  color: white;
+}
+body.dark-mode .md-form label{
+  color: white;
+}
+body.dark-mode .btn{
+  color: white;
+  background-color: black !important;
+  border: 1px solid white;
+}
+body.dark-mode .btn:hover{
+  color: black;
+  background-color: white !important;
+  border: 1px solid black;
 }
 @media only screen and (max-width: 750px) {
   html{
@@ -43,15 +78,12 @@ form{
     margin-top: 100px ;
   }
   .dark{
-    background-color: white;
+    /* background-color: white;
     border: none;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0; */
     margin-top: 60px;
     margin-right: 30px;
-  }
-  .md-form label{
-    color: black;
   }
 }
