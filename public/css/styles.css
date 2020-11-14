@@ -78,11 +78,21 @@ body.dark-mode .btn:hover{
     margin-top: 100px ;
   }
   .dark{
-    /* background-color: white;
+    background-color: white;
     border: none;
     position: absolute;
     top: 0;
-    right: 0; */
+    right: 0; 
+    margin-top: 60px;
+    margin-right: 30px;
+  }
+  body.dark-mode .dark{
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0; 
     margin-top: 60px;
     margin-right: 30px;
   }
