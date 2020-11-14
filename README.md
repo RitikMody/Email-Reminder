@@ -1,7 +1,7 @@
 # Email-Reminder 📧
 Set a reminder and get a mail.
 
-[![](https://img.shields.io/badge/Made_with-node-js-blue?style=for-the-badge&logo=nodejs)]()
+[![](https://img.shields.io/badge/Made_with-nodejs-blue?style=for-the-badge&logo=nodejs)]()
 [![](https://img.shields.io/badge/deployed_on-heroku-blue?style=for-the-badge&logo=heroku)]()
 
 
