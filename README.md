@@ -1,4 +1,4 @@
-# Email-Reminder 📧
+# Reminds 📧
 Set a reminder and get a mail.
 
 [![](https://img.shields.io/badge/Made_with-nodejs-blue?style=for-the-badge&logo=nodejs)]()
